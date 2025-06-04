@@ -14,7 +14,7 @@ with
             country,
             signup_date,
             is_active
-        from {{ source("demo", "customers") }}
+        from {{ source("raw", "customers") }}
 
     ),
 
