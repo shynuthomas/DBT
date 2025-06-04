@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: demo
+  - name: raw
     database: spartan-buckeye-459010-i0
     schema: dbt_demo
     tables:
@@ -37,13 +37,11 @@ sources:
             description: "Unique identifier for each order"
           - name: customer_id
             description: "Customer placing the order"
-          - name: product_id
-            description: "Product being ordered"
           - name: order_date
             description: "Date of the order"
-          - name: quantity
-            description: "Quantity ordered"
-          - name: total_amount
+          - name: order_status
+            description: "status of ordered"
+          - name: order_amount
             description: "Total amount paid for the order"
 
       - name: products
