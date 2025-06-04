@@ -16,7 +16,7 @@ sources:
           - name: last_name
             description: "Customer's last name"
           - name: email
-            description: "Email address"
+            description: "Email add"
           - name: phone_number
             description: "Phone number"
           - name: city
