@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: raw
+  - name: demo
     database: spartan-buckeye-459010-i0
     schema: dbt_demo
     tables:
